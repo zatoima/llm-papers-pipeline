@@ -20,6 +20,9 @@ export PATH="/usr/local/bin:/opt/homebrew/bin:${HOME}/.claude/local:${PATH}"
 # Hugo project root (where content/blog/ lives)
 export HUGO_PROJECT_ROOT="${HOME}/work/hugo/zatoima.github.io"
 
+# Slack channel ID for notifications
+export SLACK_CHANNEL_ID="YOUR_SLACK_CHANNEL_ID"
+
 # Use venv python directly instead of activate (more reliable in launchd)
 cd "${SCRIPT_DIR}"
 ./venv/bin/python3 pipeline.py --verbose
