@@ -1,0 +1,7 @@
+__pycache__/
+*.pyc
+venv/
+.env
+pipeline.log
+cron.log
+processed_papers.json
